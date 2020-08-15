@@ -127,13 +127,6 @@ public class Bot {
 			return false;
 		}
 
-		try {
-			jda.getSelfUser().getManager().setAvatar(Icon.from(main.getResource("64.png"))).queue(unused -> {
-			}, ignored -> {
-			});
-		} catch (IOException e) {
-			System.err.println(e);
-		}
 
 		jda.getPresence().setPresence(OnlineStatus.ONLINE, Game.of(GameType.DEFAULT, config.getGame()));
 
