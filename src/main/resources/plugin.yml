@@ -4,3 +4,8 @@ author: Steviebeenz
 description: Discord Music Bot
 
 main: io.github.steviebeenz.musikbot.Main
+depend: [AutoUpdaterAPI]
+permissions:
+  MusikBot.update:
+    description: Allows auto updater to run on join
+    default: op

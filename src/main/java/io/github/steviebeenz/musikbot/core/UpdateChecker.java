@@ -13,6 +13,9 @@ import net.md_5.bungee.api.chat.TextComponent;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.*;
@@ -130,6 +133,7 @@ public class UpdateChecker extends Main {
         }
     }
 
+
     /*
      * GETTERS
      */
@@ -165,5 +169,15 @@ public class UpdateChecker extends Main {
     private void sendActionBar(Player player, String message) {
         if (player != null)
             player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.translateAlternateColorCodes('&', message)));
+    }
+    @EventHandler
+    public void onJoin(PlayerJoinEvent event) {
+        final Player player = event.getPlayer();
+        if (player.isOp()) {
+            //player is op
+            update(player);
+        } else if (player.hasPermission("MusikBot.update")) {
+            update(player);
+        }
     }
 }

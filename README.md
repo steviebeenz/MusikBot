@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/github/release/Block-Build/MusikBot.svg)](https://github.com/Block-Build/MusikBot/releases/latest)
+[![Release](https://img.shields.io/github/release/Steviebeenz/MusikBot.svg)](https://github.com/Steviebeenz/MusikBot/releases/latest)
 # MusikBot ![GitHub Logo](/src/main/resources/64.png)  
 
 Discord MusikBot on Minecraft
@@ -53,7 +53,7 @@ The Discord MusikBot is a Music Bot you can host on your Minecraft Server as a P
 * Also fill in your Discord user ID
   * You could easy get Channel and User ID's from discord by right click after enableing the Developer Mode
 * After the server started successfully there will be an invite URL in console and config to join the Bot to your Discord Server.
-
+* !!! AutoUpdator !!! Make sure that admins are either OP or have permission MusikBot.update
 ### Support/Suggestions/Bugs:
 I've create this Bot to warm up my java knowledge. I hope you will enjoy it.
 If you have any problems, suggestions or bugs feel free to create an issue. Every feedback is welcome, thanks.:giggle:

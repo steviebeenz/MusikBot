@@ -4,9 +4,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 import io.github.steviebeenz.musikbot.metrics.Metrics;
+import io.github.steviebeenz.musikbot.core.UpdateChecker;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerJoinEvent;
 
 import net.dv8tion.jda.core.OnlineStatus;
 import net.dv8tion.jda.core.entities.Guild;
@@ -73,4 +77,5 @@ public class Main extends JavaPlugin {
 			bot = new Bot(this);
 		}, 1L);
 	}
+
 }
