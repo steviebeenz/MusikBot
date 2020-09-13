@@ -1,6 +1,6 @@
 ---
 name: MusikBot
 version: 1.2.0
-author: BlockBuild
-description: Discord Music Bot
+author: BlockBuilding
+description: Discord 音乐箱
 main: de.blockbuild.musikbot.Main
