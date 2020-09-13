@@ -18,7 +18,7 @@ Owner_ID: '12345'
 Command_Trigger: '!'
 #The game of the bot.
 #This will be shown under the name of the bot. "Playing <Game>".
-Game: Ready for playing music. !Play
+Game: Готовий до відтворення музики!Play
 #The emojis the bot will use to responce if a command was successfull.
 Emojis:
   Success: '😃'
