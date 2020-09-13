@@ -12,17 +12,17 @@ Bot_Token: insert token here
 #The Discord user ID of the Bot, server or guild owner.
 #You could easy get the User ID from discord by right click after enableing the Developer Mode
 #Example ID: 012345678912345678
-Owner_ID: '12345'
+Owner_ID: "12345"
 #The command trigger is a character the bot use to identify a command.
 #Example Trigger: '+' Example command: +play
-Command_Trigger: '!'
+Command_Trigger: "!"
 #The game of the bot.
 #This will be shown under the name of the bot. "Playing <Game>".
 Game: Gata pentru muzică. ! Joacă
 #The emojis the bot will use to responce if a command was successfull.
 Emojis:
-  Success: '😃'
-  Warning: '😮'
-  Error: '😦'
+  Success: "😃"
+  Warning: "😮"
+  Error: "😦"
 #You will need the invite URL to join the bot a discord guild.
-Invite_URL: '`https://discordapp.com/oauth2/authorize?scope=bot&client_id=012345678912345678&permissions=3234880`'
+Invite_URL: "`https://discordapp.com/oauth2/authorize?scope=bot&client_id=012345678912345678&permissions=3234880`"
