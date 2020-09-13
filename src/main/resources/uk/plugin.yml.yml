@@ -1,0 +1,6 @@
+---
+name: MusikBot
+version: 1.2.2
+author: Збірка блокувань
+description: Музичний бот Discord
+main: de.blockbuild.musikbot.Main
