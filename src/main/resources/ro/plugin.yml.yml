@@ -1,0 +1,6 @@
+---
+name: MusikBot
+version: 1.2.0
+author: Construire
+description: Bot-ul de muzică Discord
+main: de.blockbuild.musikbot.Main

@@ -1,0 +1,6 @@
+---
+name: MusikBot
+version: 1.2.0
+author: بناء الكتلة
+description: بوت الموسيقى ديسكورد
+main: de.blockbuild.musikbot.Main
