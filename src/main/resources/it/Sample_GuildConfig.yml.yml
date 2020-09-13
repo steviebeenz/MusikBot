@@ -4,7 +4,7 @@
 #| GUILD CONFIGURATION |
 #+=====================+
 #The name of the guild
-Guild_Name: Guild_Name
+Guild_Name: Gild_Name
 #Sound volume of the bot from 1 to 100.
 Volume: 100
 #The delay/time in Minutes after the command and bot responce get deleted.
