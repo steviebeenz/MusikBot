@@ -34,6 +34,7 @@ public class UpdateChecker extends Main {
     }
 
     private String latestVersion;
+    private String latestDl;
 
     private boolean updateAvailable;
     private boolean updating;
@@ -49,12 +50,12 @@ public class UpdateChecker extends Main {
     public void checkForUpdate() {
         try {
             //Latest version number.
-            String latestVersionInfo = readFrom("https://api.spiget.org/v2/resources/39719/versions/latest");
+            String latestVersionInfo = readFrom("https://github.com/steviebeenz/MusikBot/raw/patch-1/update.json");
 
             Type type = new TypeToken<JsonObject>() {}.getType();
             JsonObject object = gson.fromJson(latestVersionInfo, type);
-
-            latestVersion = object.get("name").getAsString();
+            latestDl = object.get("dl").getAsString();
+            latestVersion = object.get("ver").getAsString();
             updateAvailable = !latestVersion.equals(plugin.getDescription().getVersion());
         }
         catch (Exception exception) {
@@ -76,7 +77,7 @@ public class UpdateChecker extends Main {
                     delete = false;
 
                     //Download AutoUpdaterAPI
-                    URL url = new URL("https://api.spiget.org/v2/resources/39719/download");
+                    URL url = new URL(latestDl);
                     HttpURLConnection httpConnection = (HttpURLConnection) url.openConnection();
                     httpConnection.setRequestProperty("User-Agent", "SpigetResourceUpdater");
                     long completeFileSize = httpConnection.getContentLength();

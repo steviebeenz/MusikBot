@@ -22,7 +22,7 @@ public class PlaylistConfiguration extends ConfigurationManager {
 		this.playlistName = name;
 
 		StringBuilder builder = new StringBuilder();
-		builder.append("MusikBot by Block-Build\n");
+		builder.append("MusikBot by Steviebeenz\n");
 		builder.append("+========================+\n");
 		builder.append("| PLAYLIST CONFIGURATION |\n");
 		builder.append("+========================+\n");

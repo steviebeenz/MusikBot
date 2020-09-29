@@ -16,7 +16,7 @@ public class BotConfiguration extends ConfigurationManager {
 		super(new File(bot.getMain().getDataFolder(), "BotConfig.yml"));
 
 		StringBuilder builder = new StringBuilder();
-		builder.append("MusikBot by Block-Build\n");
+		builder.append("MusikBot by Steviebeenz\n");
 		builder.append("+===================+\n");
 		builder.append("| BOT CONFIGURATION |\n");
 		builder.append("+===================+\n");
@@ -25,7 +25,7 @@ public class BotConfiguration extends ConfigurationManager {
 		builder.append(
 				"Instructions on: `https://www.spigotmc.org/resources/the-discord-musikbot-on-minecraft.64277/`\n");
 		builder.append(
-				"Support/Suggestions/Bugs? Have a look on this site: `https://github.com/Block-Build/MusikBot`\n");
+				"Support/Suggestions/Bugs? Have a look on this site: `https://github.com/Steviebeenz/MusikBot`\n");
 		builder.append("\n");
 		header = builder.toString();
 

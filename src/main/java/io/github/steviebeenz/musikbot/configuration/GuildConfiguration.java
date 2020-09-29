@@ -26,7 +26,7 @@ public class GuildConfiguration extends ConfigurationManager {
 		this.guildName = musicManager.getGuild().getName();
 
 		StringBuilder builder = new StringBuilder();
-		builder.append("MusikBot by Block-Build\n");
+		builder.append("MusikBot by Steviebeenz\n");
 		builder.append("+=====================+\n");
 		builder.append("| GUILD CONFIGURATION |\n");
 		builder.append("+=====================+\n");
